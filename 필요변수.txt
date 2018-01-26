@@ -1,0 +1,27 @@
+1st operation
+------------------------------
+conv1 = input_data + conv1_weight
+relu1(v) = + conv1 + conv1_bias
+max_pool1 = relu1(v) + kernel
+------------------------------
+
+2nd operation
+------------------------------
+conv2 = max_pool1(v) + conv2_weight
+relu2 = conv2 + conv2_bias
+max_pool2 = relu2 + kernel
+------------------------------
+
+3rd operation
+------------------------------
+flat_output = (max_pool2 + final_shape)(reshape)
+------------------------------
+
+final operation
+------------------------------
+fully_connected1 = full1_weight + full1_bias + flat_output
+final_model_output = fully_connected1 + full2_weight + full2_bias
+------------------------------
+
+return(final_model_output)
+
