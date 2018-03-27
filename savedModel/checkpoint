@@ -1,0 +1,2 @@
+model_checkpoint_path: "D:/Eun/CNN4PM/savedModel/1_CNN4PM.ckpt-499"
+all_model_checkpoint_paths: "D:/Eun/CNN4PM/savedModel/1_CNN4PM.ckpt-499"
